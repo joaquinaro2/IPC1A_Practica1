@@ -27,6 +27,7 @@ public class practica1_201314725 {
 		Scanner s = new Scanner (System.in);
 		numprograma=s.nextInt();
 		
+		
 	}
 
 }
