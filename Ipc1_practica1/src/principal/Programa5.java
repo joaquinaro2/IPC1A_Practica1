@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Programa5 {
 
 	public static void main(String[] args) {
+		System.out.println("-----------------------------------------");
+		System.out.println("PROGRAMA 5");
 		int df=0;
 		int mf=0;
 		int di=0;

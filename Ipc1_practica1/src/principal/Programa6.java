@@ -7,6 +7,8 @@ public class Programa6 {
 	private static Scanner s;
 
 	public static void main(String[] args) {
+		System.out.println("-----------------------------------------");
+		System.out.println("PROGRAMA 6");
 		String x;
 		int n1;
 		int n2;

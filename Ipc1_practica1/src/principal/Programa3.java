@@ -3,35 +3,30 @@ package principal;
 import java.util.Scanner;
 
 public class Programa3 {
+	private static Scanner s;
+
 	public static void main(String[] args) {
+		System.out.println("-----------------------------------------");
+		System.out.println("PROGRAMA 3");
 		// TODO Auto-generated method stub
-		String salir; 	
-		
-		
-System.out.println("HORAS")	;	
-	 
+		String h; 
+		int hor,min; 
+s = new Scanner(System.in); 
 
-Scanner sc=new Scanner(System.in); 
-String hora; 
-int horas,minutos; 
 System.out.println("Ingrese hora en formato 24hrs:"); 
-hora=sc.nextLine(); 
+h=s.nextLine(); 
 
-horas=Integer.parseInt(hora.substring(0, hora.indexOf(":"))); 
-minutos=Integer.parseInt(hora.substring (hora.indexOf(":")+1,hora.length() )); 
+hor=Integer.parseInt(h.substring(0, h.indexOf(":"))); 
+min=Integer.parseInt(h.substring (h.indexOf(":")+1,h.length() )); 
 
-if (horas>24){
-	System.out.println("La hora ingresada no es correcta");
-	}else if(minutos>60){
-		System.out.println("La hora ingresada no es correcta");
-	}else if(horas==0){ 
-		System.out.println((horas+12)+":"+ minutos+" AM"); 
-	}else if(horas==12){ 
-		System.out.println(horas+":"+ minutos+" PM"); 
-	}else if(horas>=0 && horas<12){ 
-		System.out.println(horas+":"+ minutos+" AM"); 
+	 if(hor==0){ 
+		System.out.println((hor+12)+":"+ min+" am"); 
+	}else if(hor==12){ 
+		System.out.println(hor+":"+ min+" pm"); 
+	}else if(hor>=0 && hor<12){ 
+		System.out.println(hor+":"+ min+" am"); 
 	}else{ 
-		System.out.println((horas-12)+":"+ minutos+" PM"); 
+		System.out.println((hor-12)+":"+ min+" pm"); 
 		} 
 
 } 

@@ -2,6 +2,8 @@ package principal;
 
 public class Programa1 {
 	public static void main(String[] args) {
+	System.out.println("-----------------------------------------");	
+		System.out.println("PROGRAMA 1");
 		for (int filas=1; filas<6; filas++) { 
 			for (int espacios=5;espacios>filas; espacios--)
 				System.out.print(" ");
@@ -23,5 +25,6 @@ public class Programa1 {
              
             System.out.println(); 
     } 
+		
 } 
 }

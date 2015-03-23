@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Programa10 {
 
 	public static void main(String[] args) {
+		System.out.println("-----------------------------------------");
+		System.out.println("PROGRAMA 10");
 		// TODO Auto-generated method stub
 		int n;
 		int m;

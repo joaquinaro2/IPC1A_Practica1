@@ -4,6 +4,8 @@ public class Programa9 {
 	
 	
 	    public static void main(String[] args) {  
+	    	System.out.println("-----------------------------------------");
+	    	System.out.println("PROGRAMA 9");
 	      Scanner s=new Scanner(System.in);  
 	      String Unidad[]={"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"};  
 	      String Decena[]={"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};  

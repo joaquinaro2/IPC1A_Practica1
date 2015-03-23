@@ -3,10 +3,14 @@ package principal;
 import java.util.Scanner;
 
 public class Programa2 {
+	private static Scanner s;
+
 	public static void main (String []args){
+		System.out.println("-----------------------------------------");
+		System.out.println("PROGRAMA 2");
 		int nota1,nota2,nota3,nota4,nota5,nota6,media;
 		System.out.println("Ingrese las 6 notas:");
-		Scanner s= new Scanner (System.in);
+		s = new Scanner (System.in);
 		nota1=s.nextInt();
 		nota2=s.nextInt();
 		nota3=s.nextInt();
@@ -21,11 +25,11 @@ public class Programa2 {
 		System.out.println("82- 89    B");
 		System.out.println("70- 79    C");
 		System.out.println("60- 69    D");
-		System.out.println(" 0 -59    E");
+		System.out.println(" 0 -59    F");
 		
 		System.out.println();
 		if(media>0 && media<60)
-			System.out.println("Tiene una E como puntuación");
+			System.out.println("Tiene una F como puntuación");
 		if(media>59 && media<70)
 			System.out.println("Tiene una D como puntuación");
 		if(media>69 && media<80)

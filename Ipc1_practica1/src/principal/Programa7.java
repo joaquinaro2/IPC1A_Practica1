@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Programa7 {
 
 	public static void main(String[] args) {
+		System.out.println("-----------------------------------------");
+		System.out.println("PROGRAMA 7");
 		int num;
 		Scanner s= new Scanner (System.in);
 		System.out.println("Tabla de Multiplicar de:");

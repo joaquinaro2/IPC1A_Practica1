@@ -5,11 +5,13 @@ import java.util.Scanner;
 public class Programa13 {
 
 	public static void main(String[] args) {
+		System.out.println("-----------------------------------------");
+		System.out.println("PROGRAMA 13");
 		// TODO Auto-generated method stub
 		int y=0,i=0;
 		String x,l;
 	Scanner s=new Scanner (System.in);
-	System.out.println("Ingrese letra a adivinar:");
+	System.out.println("Ingrese letra a adivinar: \n Abecedario: a b c d e f g h i j k l m n o p q r s t u v w x y z");
 	x=s.nextLine();
 	
 	switch (x){
