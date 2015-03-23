@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Programa15 {
 	public static boolean primo (int num){
+		
 		boolean prim=true;
 		int divisor=2;
 		while((prim)&&(divisor!=num)){
@@ -16,6 +17,8 @@ public class Programa15 {
 		return prim;
 }
 	public static void main(String[] args) {
+		System.out.println("-----------------------------------------");
+		System.out.println("PROGRAMA 15");
 			Scanner sc=new Scanner(System.in);
 			int numero=0;
 			boolean primo;
