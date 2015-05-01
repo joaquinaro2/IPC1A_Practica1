@@ -24,9 +24,7 @@ public class Menu {
 	System.out.println(" Programa 7");
 	System.out.println(" Programa 8");
 	System.out.println(" Programa 9");
-	System.out.println(" Programa 10");
-	System.out.println(" Programa 11");
-	System.out.println(" Programa 12");
+	System.out.println(" Programa 10");	
 	System.out.println(" Programa 13");
 	System.out.println(" Programa 14");
 	System.out.println(" Programa 15");

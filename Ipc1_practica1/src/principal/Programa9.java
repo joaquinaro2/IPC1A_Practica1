@@ -15,7 +15,7 @@ public class Programa9 {
 	      int N = s.nextInt();  
 	      int u=N%10;  
 	      int d=(N/10)%10;  
-	      int c=N/100;  
+	      int c=(N/100)%10;  
 	      int m=(N/1000);
 	      	if(N>=1000){          
 	            System.out.println(Milenio[m]+Centena[c]+Decena[d]+Unidad[u]);  
